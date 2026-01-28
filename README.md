@@ -5,7 +5,7 @@ A Framework for High-Efficiency Neural Video Storage and Delivery
 
 # NCode Protocol v0.1: The Inception of Neural-Latent Media Transport
 
-![NCode Architecture Header]()
+![NCode Architecture]()
 
 **NCode** is a neural-native media protocol designed for the next-generation to replace pixel-based video streaming with **Semantic Latent-Space Reconstruction**. 
 
@@ -25,15 +25,15 @@ NCode v0.1 introduces **Implicit Neural Storage (INS)** and **Modular Weight Str
 NCode fragments "visual knowledge" into N-minute **Weight Batches**. This allows consumer-grade hardware to swap scene-specific intelligence in and out of VRAM just-in-time.
 
 ### 2. Object & Scene Persistence
-NCode recognizes recurring visual assets. Using **Global Referencing**, assets (like a recurring environment or character) are fetched once as a neural state and reused, with only the **Latent Delta ($\Delta z$)** being streamed thereafter.
+NCode recognizes recurring visual assets. Using **Global Referencing**, assets (like a recurring environment or character) are fetched once as a neural state and reused, with only the **Latent Delta ($\delta z$)** being streamed thereafter.
 
 ### 3. Deterministic Inference
-To eliminate "AI blotches," NCode enforces bit-identical reconstruction through **Inference Seed Locking**. Every frame is mathematically reproducible across all devices.
+To eliminate "AI blotches", NCode enforces bit-identical reconstruction through **Inference Seed Locking**. Every frame is mathematically reproducible across all devices.
 
 ---
 
 ## Documentation
-* **[NCode v0.1 Specification](./SPECIFICATION.md):** Detailed architectural breakdown. // TODO
+* **[NCode v0.1 Specification](./SPECIFICATION.md):** Detailed architectural breakdown.
 * **[NCode Technical Whitepaper](./NCode_Whitepaper.tex):** Formal LaTeX source for academic review. // TODO
 
 ---
