@@ -20,7 +20,7 @@ Transmits $N$-dimensional tensors representing "Intent" (Camera Path, Lighting, 
 The backend stores a "Universal Base Model" and "Content LoRAs" instead of MP4 files. This achieves extreme storage efficiency and enables on-the-fly "Neural Transcoding" for specific user hardware.
 
 ## 4. Mathematical Foundation (RFC / TODO)
-We are currently seeking formalization for:
+Currently seeking help with mathematical research and formalization for:
 * **TODO [Math-01]:** Latent Delta ($\Delta z$) Entropy Optimization. <br> *Require a robust formula for minimizing the tensor size while maintaining high-fidelity reconstruction on the NPU manifold.*
 * **TODO [Math-02]:** Semantic Checksum Thresholds ($\epsilon$) for drift detection. <br> *Research into "Perceptual Loss Hashes" that can detect identity drift without the computational overhead of traditional VGG or LPIPS metrics.*
 * **TODO [Math-03]:** Cross-architecture Quantization Determinism. <br> *Standardize floating-point precision across varying hardware architectures (NVIDIA TensorRT vs. Apple CoreML) to ensure bit-identical reconstruction.*
